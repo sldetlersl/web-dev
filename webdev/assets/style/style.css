@@ -33,7 +33,8 @@ a {
 }
 
 header {
-    height: 95px;
+    max-height: auto;
+    background-color: #000000;
 }
 
 .header__navbar-items {
@@ -66,15 +67,10 @@ header {
     padding: 0 57px 0 59px;
 }
 
-.header__life,
-header {
+.header__life {
     background-image: url(../image/background-header.png);
     background-repeat: no-repeat;
-    background-position: inherit;
-    background-attachment: fixed;
-    height: 100%;
-    display: flex;
-    justify-content: center;
+    background-position: bottom;
 }
 
 .header__life-content {
@@ -123,3 +119,34 @@ header {
 .header__social-item {
     padding: 53px 15px 85px 15px;
 }
+
+.technical__info {
+    display: flex;
+    justify-content: center;
+    width: 407px;
+    height: 233px;
+}
+
+.technical__info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.technical__info-title {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.technical__info-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+}
+
+.technical__info-image {}
