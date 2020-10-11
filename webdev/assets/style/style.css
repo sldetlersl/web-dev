@@ -1,5 +1,6 @@
 *,
 h1,
+h2,
 li,
 a {
     margin: 0;
@@ -22,7 +23,8 @@ a {
     cursor: pointer;
     font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 16, 41px;
+    text-align: center;
     text-transform: uppercase;
     outline: none;
     border: none;
@@ -122,18 +124,22 @@ header {
 
 .technical__info {
     display: flex;
-    justify-content: center;
-    width: 407px;
-    height: 233px;
+    justify-content: start;
+    align-items: center;
+    max-height: 842px;
 }
 
 .technical__info-content {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    padding: 297px 176px 280px 270px;
+    width: 405px;
+    height: 233px;
 }
 
 .technical__info-title {
+    padding-bottom: 22px;
+    width: 380px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #373737;
@@ -143,10 +149,15 @@ header {
 }
 
 .technical__info-description {
+    padding-bottom: 28px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 140%;
+    line-height: 20px;
     color: #4E4E4E;
 }
 
-.technical__info-image {}
+.technical__info-image {
+    max-width: 407px;
+    max-height: 582px;
+    padding: 13px 0 0 73px;
+}
