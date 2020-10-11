@@ -1,6 +1,7 @@
 *,
 h1,
 h2,
+h3,
 li,
 a {
     margin: 0;
@@ -156,8 +157,46 @@ header {
     color: #4E4E4E;
 }
 
+.technical__info-description span {
+    font-weight: 500;
+}
+
 .technical__info-image {
     max-width: 407px;
     max-height: 582px;
     padding: 13px 0 0 73px;
+}
+
+.community__info {
+    display: flex;
+    justify-content: center;
+    background: #F5F6F7;
+    height: 504px;
+}
+
+.community__info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 298px;
+    height: 175px;
+}
+
+.community__info-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.community__info-description {
+    align-items: flex-end;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
 }
