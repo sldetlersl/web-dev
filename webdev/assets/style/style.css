@@ -25,6 +25,7 @@ a {
     line-height: 16px;
     text-transform: uppercase;
     outline: none;
+    border: none;
 }
 
 .default__btn:hover {
@@ -32,7 +33,6 @@ a {
 }
 
 header {
-    background-color: #000000;
     height: 95px;
 }
 
@@ -66,17 +66,19 @@ header {
     padding: 0 57px 0 59px;
 }
 
-.header__life {
+.header__life,
+header {
     background-image: url(../image/background-header.png);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: inherit;
+    background-attachment: fixed;
     height: 100%;
     display: flex;
     justify-content: center;
 }
 
 .header__life-content {
-    padding-top: 135px;
+    padding-top: 155px;
     margin: 0;
     max-height: 649px;
     display: flex;
@@ -98,7 +100,7 @@ header {
 .header__life-description {
     max-width: 504px;
     margin: 0 auto;
-    padding: 21px 0 28px 19px;
+    padding: 22px 0 28px 19px;
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
@@ -110,10 +112,6 @@ header {
     align-items: center;
     padding: 0 0 131px 17px;
 }
-
-.header__life-control {}
-
-.header__social {}
 
 .header__social-items {
     display: flex;
