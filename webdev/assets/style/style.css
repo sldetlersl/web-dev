@@ -3,7 +3,9 @@ h1,
 h2,
 h3,
 li,
-a {
+a,
+input,
+form {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -31,7 +33,26 @@ a {
     border: none;
 }
 
+.default__btn-small {
+    width: 66px;
+    height: 46px;
+    background-color: #00AFDB;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16, 41px;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+}
+
 .default__btn:hover {
+    background: #009CC2;
+}
+
+.default__btn-small:hover {
     background: #009CC2;
 }
 
@@ -267,7 +288,7 @@ header {
 .community__slider-image-1,
 .community__slider-image-2,
 .community__slider-image-3 {
-    padding: 0 0px 0 30px;
+    padding: 0 0 0 30px;
 }
 
 .implement__code {
@@ -318,4 +339,65 @@ header {
 
 .implement__code-content-button {
     width: 180px;
+}
+
+.newsletter {
+    max-height: 524px;
+}
+
+.wrapper__newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 0 220px 17px;
+    background-image: url(../image/background-newsletter.png);
+}
+
+.newsletter__content {
+    padding-bottom: 30px;
+}
+
+.newsletter__content-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.newsletter__form-content {
+    display: flex;
+}
+
+.newsletter__form-content-email {
+    width: 340px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #373737;
+    border: none;
+}
+
+.newsletter__form-content-email::-webkit-input-placeholder {
+    padding-left: 24px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #373737;
+    opacity: 0.5;
+}
+
+.newsletter__form-content-email-button {
+    background-image: url(../image/check-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.newsletter__form-content-email-button:hover {
+    background-image: url(../image/check-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
