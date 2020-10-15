@@ -120,7 +120,14 @@ header {
 }
 
 .header__social-item {
-    padding: 53px 15px 85px 15px;
+    padding: 53px 15px 0px 15px;
+    margin-bottom: 85px;
+}
+
+.header__social-item:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    opacity: 1;
 }
 
 .wrapper__technical {
