@@ -48,11 +48,39 @@ form {
     border: none;
 }
 
+.default__btn-store-content {
+    width: 127px;
+    height: 46px;
+    background: #00AFDB;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.default__btn-store-icon {
+    width: 59px;
+    height: 46px;
+    background: #009CC2;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
 .default__btn:hover {
     background: #009CC2;
 }
 
 .default__btn-small:hover {
+    background: #009CC2;
+}
+
+.default__btn-store-content:hover {
     background: #009CC2;
 }
 
@@ -282,7 +310,6 @@ header {
 .wrapper__community-slider-image {
     display: flex;
     justify-content: flex-start;
-    /* padding-left: 30px; */
 }
 
 .community__slider-image-1,
@@ -397,6 +424,65 @@ header {
 
 .newsletter__form-content-email-button:hover {
     background-image: url(../image/check-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper__application {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.application__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0 30px 18px;
+    height: 88px;
+    width: 480px;
+}
+
+.application__content-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.application__content-discription {
+    padding: 21px 0 30px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #4E4E4E;
+}
+
+.application__button-store-box {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 180px 14px;
+}
+
+.application__button-store-apple,
+.application__button-store-android {
+    display: flex;
+    justify-content: center;
+}
+
+.application__button-store-apple-icon {
+    margin-right: 30px;
+    background-image: url(../image/icon-apple.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.application__button-store-android-icon {
+    background-image: url(../image/icon-android.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
