@@ -105,12 +105,12 @@ header {
     color: white;
 }
 
-.header__navbar-item a {
+.header__navbar-item-link {
     color: #fff;
 }
 
-.header__navbar-item a:hover {
-    color: #ffffff;
+.header__navbar-item-link:hover,
+.footer__nav-item-link:hover {
     border-bottom: 1px solid #ffffff;
     opacity: 1;
 }
@@ -169,8 +169,9 @@ header {
 }
 
 .header__social-item {
-    padding: 53px 15px 0px 15px;
+    margin: 53px 15px 0px 15px;
     margin-bottom: 85px;
+    border: 1px solid transparent;
 }
 
 .header__social-item:hover {
@@ -485,4 +486,62 @@ header {
     background-image: url(../image/icon-android.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.wrapper__footer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #000000;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: center;
+    padding: 71px 382px 92px 160px;
+}
+
+.footer__nav-items {
+    display: flex;
+    justify-content: space-between;
+    width: 236px;
+    height: 20px;
+}
+
+.footer__nav-item-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer__nav-item-border {
+    margin-top: 6px;
+    border: 1px solid #4E4E4E;
+    height: 6px;
+}
+
+.footer__logo {
+    padding: 60px 448px 80px 0;
+}
+
+.footer__logo:hover {
+    size: 125%;
+}
+
+.footer_copyright-content {
+    padding: 73px 0px 92px 0;
+}
+
+.footer__copyright-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #818181;
+}
+
+.footer__copyright-link:hover {
+    border-bottom: 1px solid #818181;
+    opacity: 1;
 }
