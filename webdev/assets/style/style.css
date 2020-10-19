@@ -72,16 +72,40 @@ form {
     cursor: pointer;
 }
 
+.default__btn-slider {
+    margin: 0 5px 0 5px;
+    padding: 0 16px 0 14px;
+    width: 13px;
+    height: 18px;
+    background: #F5F6F7;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.default_logo:hover {
+    transform: scale(1.1);
+}
+
+.default__btn-slider:hover {
+    transform: scale(1.2);
+}
+
 .default__btn:hover {
     background: #009CC2;
+    transform: scale(1.1);
 }
 
 .default__btn-small:hover {
     background: #009CC2;
+    transform: scale(1.1);
 }
 
 .default__btn-store-content:hover {
     background: #009CC2;
+    transform: scale(1.1);
 }
 
 header {
@@ -275,28 +299,22 @@ header {
     width: 83px;
 }
 
-.community__info-slider-control-prev {
-    margin: 0;
-    height: auto;
-    width: 8px;
-    background: url(../image/arrow-left.png);
-    background-repeat: no-repeat;
+.community__slider-ctrl-prev {
+    background-image: url(../image/arrow-left.png);
 }
 
-.community__info-slider-control-next {
-    margin: 0;
-    height: 10px;
-    width: 8px;
-    background: url(../image/arrow-right.png);
-    background-repeat: no-repeat;
+.community__slider-ctrl-next {
+    background-image: url(../image/arrow-right.png);
 }
 
 .community__info-slider-control-slash {
+    padding: 0 7px 0 7px;
     margin: 0;
-    height: auto;
-    width: 8px;
-    background: url(../image/divider-icon.png);
+    height: 15px;
+    width: 10px;
+    background-image: url(../image/divider-icon.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .community__info-slider-control-num {
@@ -305,7 +323,6 @@ header {
     font-size: 18px;
     line-height: 18px;
     text-align: center;
-    padding: 0 5px 0 5px;
 }
 
 .wrapper__community-slider-image {
